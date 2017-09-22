@@ -6,3 +6,6 @@ for (var i = inputString.length - 1; i >= 0; i--){
 }
 
 console.log(reverseString)
+
+// var reverseString = inputString.split('').reverse().join('')
+// console.log(reverseString)

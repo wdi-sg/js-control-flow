@@ -1,4 +1,4 @@
-var testScores = 96
+var testScores = 75
 
 switch (testScores) {
   case 100: case 99: case 98: case 97: case 96: case 95: case 94: case 93: case 92: case 91:
@@ -17,5 +17,16 @@ switch (testScores) {
       grade = 'F'
 
 }
+
+// switch (true) {
+//   case testScores > 90 && testScores < 100:
+//     grade = "A"
+//     break;
+//   case testScores > 80 && testScores < 91:
+//     grade = "B"
+//     break;
+//   default:
+//     grade = "F"
+// }
 
 console.log(grade)

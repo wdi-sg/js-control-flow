@@ -28,6 +28,9 @@ var phoneBook = {
 };
 
 
+ // console.log(phoneBook.Bob);
+
 for (var sameNum in phoneBook)
     if (phoneBook[sameNum] === "333-333-3333")
-    console.log(sameNum)
+
+console.log(sameNum)
