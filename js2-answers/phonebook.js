@@ -28,7 +28,40 @@ var phoneBook = {
 };
 
 
-
-for (var prop in phoneBook) {
-  console.log (`obj.${prop} = ${obj[prop]}`)
+//var here can be anything, it refers to the KEY names
+for (var contact in phoneBook) {
+  console.log(phoneBook[contacts])
+//  if (object.hasOwnProperty(variable)) {
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//----------------
+
+//these are all items in an Object
+
+//consle.log(phoneBook[Bob])won't work. Need to "" the key
+//so console.log(phoneBook.Bob) works
+//console.log(phoneBook["Bob"]) works
+
+
+// var obj = {'a' : 'helow work'}
+//
+// var b = 'a'
+//
+// console.log(obj.b) //should not work need to [] the b
+//
+// console.log(obj[b])
+//arr.unshift(321) will make 321 got the first of the array

@@ -29,3 +29,8 @@ for (counter = 0; counter < 100; counter++) {
 }
 
 FizzBuzz (10)
+
+//how to loop 
+
+//check if a num is divisible by 3 and 5
+// x % 3 === 0 && x % 5 === 0

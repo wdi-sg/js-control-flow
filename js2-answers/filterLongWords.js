@@ -3,11 +3,12 @@ var words = ["hello", "world", "bye"]
 var maxLength = 5
 
 var newWords = ""
-for (i = 0; i <= words.length; i++) {
+for (i = 0; i < words.length; i++) {
   var lengthOfWords = words[i].length
   if (lengthOfWords < maxLength) {
     newWords.push(words[i])
   }
+  console.log(newWords) //yay! got it working with Shumin's help!
 }
 
 // //tried to divide the two zzz
