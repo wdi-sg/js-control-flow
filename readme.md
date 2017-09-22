@@ -16,9 +16,7 @@ Write a program that will take a hardcoded string, and console log the reversed 
 * You must use a `for` loop. No `.reverse()`
 * You may use the string below
 
-```js
-var inputString = 'building';
-```
+
 
 ---
 
