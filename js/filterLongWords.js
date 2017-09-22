@@ -1,22 +1,9 @@
-//argument: array of words
-// var maxLength
-// push words.length < maxLength into newarray
-//console.log(maxLength)
-//
-word = ["justify", "geterejifoa","header"]
 
-function Length(wordArr){
-  var maxLength = 0
-  var lengthArr = []
-  for(var i = 0; i < wordArr.length; i++){
-    lengthArr.push(wordArr[i].length)
-    //console.log(lengthArr)
-  }
-  maxLength  =  Math.max(...lengthArr)
-  console.log(maxLength)
-  wordArr.splice(lengthArr.indexOf(maxLength), 1)
-  console.log(wordArr)
-  return wordArr
-}
+var words = ["abc", "efd","hs","nfaofp"]
+var maxLength = 4
 
-Length(word)
+var shortWordArr = words.filter(function(word){
+    return word.length < maxLength;
+  })
+
+console.log(shortWordArr)

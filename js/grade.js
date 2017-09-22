@@ -1,4 +1,4 @@
-var gradeletter=75;
+var gradeletter=67;
 
 function returnGrade(grade){
 
