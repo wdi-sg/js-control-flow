@@ -27,10 +27,36 @@ var phoneBook = {
   "Zed": "111-111-1111"
 };
 
-
- // console.log(phoneBook.Bob);
+// console.log(phoneBook.hasOwnProperty('Gil'))
 
 for (var sameNum in phoneBook)
     if (phoneBook[sameNum] === "333-333-3333")
 
-console.log(sameNum)
+ console.log(sameNum)
+
+
+ // var multi = {
+ //   name: 'Product List',
+ //   items: [
+ //    {
+ //      name: 'Nexus',
+ //      price: 800
+ //    },
+ //    {
+ //      name: 'iPhone',
+ //      price: 1000
+ //    }
+ //   ]
+ // }
+  // console.log(multi.items)
+
+// var totalPrice = 0
+
+ // for(var init = 0; init < multi.items.length; init++) {
+ //   var eachObj = multi.items[init]
+ //  //  console.log(multi.items[init])
+ //
+ //   totalPrice += eachObj.price
+ // }
+
+// console.log(totalPrice)
