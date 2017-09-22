@@ -7,3 +7,7 @@ console.log(newString)
 }
 
 reverseString('building')
+
+// for (var i = 0; i < array.length; i++) {
+//   array[i]
+// }
