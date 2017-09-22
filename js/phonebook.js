@@ -27,4 +27,8 @@ var phoneBook = {
   "Zed": "111-111-1111"
 };
 
-console.log(Object.keys("333-333-3333"))
+
+
+for (var prop in phoneBook) {
+  console.log (`obj.${prop} = ${obj[prop]}`)
+}
