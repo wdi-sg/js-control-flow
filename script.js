@@ -1,3 +1,26 @@
+for (var i = 10; i > 0; i--) {
+    console.log(i);
+}
+console.log("------")
+var fruits = [
+    'banana',
+    'apple',
+    'strawberry',
+    'mango',
+    'papaya',
+    'coconut',
+    'orange'
+    ];
+
+for (var i = 0; i < fruits.length; i++) {
+    if (fruits[i] === "mango") {
+        console.log("HOORAY");
+    }
+    else {
+        console.log(fruits[i]);
+    }
+}
+console.log("------")
 var phoneBook = {
     "Abe": "111-111-1111",
     "Bob": "222-222-2222",
@@ -32,3 +55,52 @@ var phoneBook = {
           console.log(num);
       }
   }
+  console.log("------")
+
+  for (var i = 1; i <= 100; i++) {
+      var printString = "";
+      
+      if (i % 3 === 0) {
+          printString += "fizz";
+      }
+      if (i % 5 === 0) {
+          printString += "buzz";
+      }
+
+      if (printString === "") {
+          printString += String(i);
+      }
+      console.log(printString)
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
