@@ -37,7 +37,6 @@ Write a program that will print the letter grade, given a variable with a test s
 **Requirements**
 * Your program should have a variable to store the letter grade (an integer between 0 and 100)
 * For the letter grades, you may use whatever grading scale you like
-* You must use a switch statement (hint, you may need to review and think about how the `switch` statement works)
 
 ---
 ### fizzbuzz.js
