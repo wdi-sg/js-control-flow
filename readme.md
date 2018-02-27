@@ -5,7 +5,7 @@
 * Write JavaScript code to obtain the data prompted by each question
 * The code for each exercise should be placed in separate `.js` files (see the `js` folder). This will make it easier to keep track of solutions
   * It may also be beneficial to copy/paste any data structures provided
-* Run each file by typing `node js/nameOfFile.js`
+* Run each file by including it in your html file `<script src="nameOfFile.js"/>`
 
 ---
 
@@ -23,7 +23,7 @@ var inputString = 'building';
 ---
 
 ### filterLongWords.js
-Write a program that will take an array of words. Using a variable called `maxLength`, push words that are less than the `maxLength` into a new array, and `console.log` the value of `maxLength`.
+Write a program that will take an array of words. (Create an array for yourself to test with- it should have short and long words.) Use a variable called `maxLength` set to a number of your choosing. Push words that are less than the `maxLength` into a new array. `console.log` the value of the number `maxLength`.
 
 **Requirements**
 * Your array of words should be stored in a variable, which can be named whatever you like
