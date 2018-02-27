@@ -23,7 +23,7 @@ var inputString = 'building';
 ---
 
 ### filterLongWords.js
-Write a program that will take an array of words. (Create an array for yourself to test with- it should have short and long words.) Use a variable called `maxLength` set to a number of your choosing. Push words that are less than the `maxLength` into a new array. `console.log` the value of the number `maxLength`.
+Write a program that will take an array of words. (Create an array for yourself to test with- it should have short and long words.) Use a variable called `maxLength` set to a number of your choosing. Push words that are less than the `maxLength` into a new array. `console.log` the value of the new array.
 
 **Requirements**
 * Your array of words should be stored in a variable, which can be named whatever you like
